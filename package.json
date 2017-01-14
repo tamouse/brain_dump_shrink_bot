@@ -1,7 +1,6 @@
 {
   "name": "brain-dump-shrink-bot",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -14,5 +13,17 @@
     "morgan": "~1.7.0",
     "node-sass-middleware": "0.9.8",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "HackTheGap 2017 Project",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot/issues"
+  },
+  "homepage": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot#readme"
 }
