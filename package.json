@@ -1,35 +1,39 @@
 {
-    "name": "brain-dump-shrink-bot",
-    "version": "0.1.0",
-    "scripts": {
-	"test": "NODE_ENV=test mocha 'tests/**/*_test.js'",
-	"start": "node ./bin/www"
-    },
-    "dependencies": {
-	"body-parser": "~1.15.2",
-	"cookie-parser": "~1.4.3",
-	"debug": "~2.2.0",
-	"ejs": "~2.5.2",
-	"expect.js": "^0.3.1",
-	"express": "~4.14.0",
-	"mocha": "^3.2.0",
-	"mongoose": "^4.7.6",
-	"mongoose-times": "^0.1.0",
-	"morgan": "~1.7.0",
-	"node-sass-middleware": "0.9.8",
-	"serve-favicon": "~2.3.0",
-	"supertest": "^2.0.1"
-    },
-    "description": "HackTheGap 2017 Project",
-    "main": "app.js",
-    "repository": {
-	"type": "git",
-	"url": "git+https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-	"url": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot/issues"
-    },
-    "homepage": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot#readme"
+			"name": "brain-dump-shrink-bot",
+			"version": "0.1.0",
+			"scripts": {
+						"test": "NODE_ENV=test mocha 'tests/**/*_test.js'",
+						"start": "node ./bin/www"
+			},
+			"dependencies": {
+						"body-parser": "~1.15.2",
+						"cookie-parser": "~1.4.3",
+						"debug": "~2.2.0",
+						"ejs": "~2.5.2",
+						"expect.js": "^0.3.1",
+						"express": "~4.14.0",
+						"express-mongo-sanitize": "^1.3.2",
+						"mocha": "^3.2.0",
+						"mongoose": "^4.7.6",
+						"mongoose-html-2": "^0.1.1",
+						"mongoose-times": "^0.1.0",
+						"morgan": "~1.7.0",
+						"node-sass-middleware": "0.9.8",
+						"sanitize-html": "^1.14.1",
+						"sanitizer": "^0.1.3",
+						"serve-favicon": "~2.3.0",
+						"supertest": "^2.0.1"
+			},
+			"description": "HackTheGap 2017 Project",
+			"main": "app.js",
+			"repository": {
+						"type": "git",
+						"url": "git+https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot.git"
+			},
+			"author": "",
+			"license": "MIT",
+			"bugs": {
+						"url": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot/issues"
+			},
+			"homepage": "https://github.com/BrainDumpShrinkBot/brain_dump_shrink_bot#readme"
 }

@@ -16,4 +16,14 @@ describe('Diary Entry Model Text', function () {
             });
         });
     });
+
+    describe('sanitize a new entity', function () {
+        var diaryDoc = {title: '<h1>hi there</h1>', body: '<p>you do not want to see this</p>'};
+        var diaryEntry = new DiaryEntry(diaryDoc);
+        diaryEntry.save();
+        it('stripped the html from the diary entry', function () {
+            expect(diaryEntry.title).to.be.equal('hi there');
+            expect(diaryEntry.body).to.be.equal('you do not want to see this');
+        });
+    })
 });
