@@ -69,7 +69,6 @@ router.get('/:id/edit', function (req, res, next) {
 router.post('/:id', function (req, res, next) {
     DiaryEntry.findById(req.params.id)
         .then(function (data) {
-            console.log("Found item: " + data._id);
             data.title = req.body.title;
             data.body = req.body.body;
             data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
