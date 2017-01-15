@@ -11,47 +11,44 @@
 <h1><%= title %></h1>
 <p>Here's your entry...</p>
 
-<form action='/' method='put' class='display'>
+<form action="'/' + diaryEntry._id + '/delete'" method='delete' class='display'>
 
   <p>
     Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
 
-    <a href='/'><button class='button floatRight' method='delete'>Delete</button></a>
+    <input class="button floatRight" type="submit" name="delete" value="Delete">
   </p>
-
-  <textarea name="body" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
-
-  <!-- <a href='/'><button class='button floatRight'>Save</button></a> -->
-  <input class="button floatRight" type="submit" name="save" value="Save">
-  <br />
 
 </form>
 
-<!-- <p class='display'>
+<form action="'/' + diaryEntry._id + '/edit'" method='put' class='display'>
 
+  <textarea name="body" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
 
-
-  </form>
-
-  <%= diaryEntry.body %>
-  <a href='/'><button class='button floatRight'>Delete</button></a>
-  <br />
+  <input class="button floatRight" type="submit" name="save" value="Save">
   <br />
 
-  Tags:
-  <% diaryEntry.tags.forEach(function(element) { %>
-    <%= element %>
-  <% }) %>
-  <br />
-  <br />
+  <p>
+    Tags:
+    <br />
+
+    Seperate each tag with a comma, please!
+    <br />
+
+    <input type="text" placeholder="<% diaryEntry.tags.forEach(function(element) { %>
+        <%= element %> + ', '
+      <% }) %>">
+  </p>
+
+</form>
+
+<p class='display'>
 
   Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
 
-</p> -->
+</p>
 
 <a href='/'><button class='button'>ShrinkBot this entry!</button></a>
-<!-- <pre><code>
-        <%= JSON.stringify(diaryEntry, null, 4) %>
-    </code></pre> -->
+
 </body>
 </html>
