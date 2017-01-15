@@ -11,19 +11,21 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %><br />
     Below are your previous entries.</p>
-    <!-- <pre>
-      <code>
-        <%=  %>
-      </code>
-    </pre> -->
+    <a href='/new'><button>New entry</button></a>
+
     <ul>
+      
+      <div class="line"></div>
+      <br />
+      <br />
+
       <% for(var i=0; i<diaryEntries.length; i++) { %>
         <li>
 
-          <label>Last updated: </label><%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY HH:mm') %>
-
-          <button class='view button'>View</button>
-          <br />
+          <p>
+            Last updated: <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('HH:mm') %>
+            <a href="<%= '/' + diaryEntries[i]._id.toString() %>" method='get'><button class="view">View</button></a>
+          </p>
 
           <!-- <% if (diaryEntries[i].title) { %>
             <b><%= diaryEntries[i].title %></b> <br />
@@ -31,21 +33,25 @@
             <%= '' %> <br />
           <% } %>   -->
 
-          <%= diaryEntries[i].body %> <br />
+          <p>
+            <%= diaryEntries[i].body %>
+          </p>
 
           <!-- <p>Categories: <br /></p>
           <% diaryEntries[i].categories.forEach(function(element) { %>
             <%= element %> <br />
           <% }) %> -->
 
-          <p>Tags: <br /></p>
-          <% diaryEntries[i].tags.forEach(function(element) { %>
-            <%= element %> <br />
-          <% }) %>
+          <p>
+            Tags:
+            <% diaryEntries[i].tags.forEach(function(element) { %>
+              <%= element %>
+            <% }) %>
+          </p>
 
-          <label>Created: </label><%= diaryEntries.getDate(diaryEntries[i].created).format('MM-DD-YYYY HH:mm') %> <br />
-
-
+          <p>
+            Created: <%= diaryEntries.getDate(diaryEntries[i].created).format('MM-DD-YYYY') %> at <%= diaryEntries.getDate(diaryEntries[i].created).format('HH:mm') %>
+          </p>
 
         </li>
         <br />
