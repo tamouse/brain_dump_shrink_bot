@@ -39,15 +39,14 @@ def main():
         
         # process content and add tags
         raw = str(row.body)
+        raw = raw.lower()
         get_tags = list(row.tags)
-        new_tags = process_content(raw, n_words=2, n_appear=2, n_pairs=2)    
+        new_tags = process_content(raw, n_words=3, n_appear=3, n_pairs=2)    
         get_tags.extend(new_tags)
         
         # process content and create score
-        # score_t = float('{:03.2f}'.format(tag_score(new_tags))) # unused
-        score_c = content_score(raw)
-        
-        # push tags to mongo              
+        score_t = float('{:03.2f}'.format(tag_score(new_tags))) # unused
+        score_c = float('{:03.2f}'.format(content_score(raw))) # formatting works with 3.5 but not 3.4
         cursor.collection.update_one({"_id":df._id[row.Index]}, {"$set": {"tags":get_tags}, "$currentDate":{"lastModified":True}}, True, False)
     
         # push score to mongo

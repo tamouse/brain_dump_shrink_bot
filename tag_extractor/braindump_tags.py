@@ -42,6 +42,12 @@ def get_frequent_words(raw, n_words):
     # remove stop words
     stop = set(nltk.corpus.stopwords.words('english'))
     output = [i for i in raw.lower().split() if i not in stop]
+    
+    for i in range(len(output)):
+        if len(output[i]) < 5:
+            output[i] = []
+            
+    output = [x for x in output if x != []]
 
     # find n most frequent words
     fdist = nltk.FreqDist(output)
