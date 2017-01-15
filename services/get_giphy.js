@@ -9,19 +9,18 @@ module.exports = (function(config) {
 
     function fetch_giphy(tags, cb) {
         var url = config.services.giphy.url;
-        url += '?api_key=' + config.services.giphy.api_key
+        url += '?api_key=' + config.services.giphy.api_key;
         url += '&q=' + encodeURI(tags.join(' '));
-        console.log("URL: ", url);
+        url += '&limit=1';
+        url += '&rating=g';
         fetch(url)
             .then(function (res) {
-                console.log(JSON.stringify(res.json()));
                 return res.json();
             },
             function (err) {
                 console.log("ERROR!!!" + err);
             })
             .then(function (data) {
-                console.log(data);
                 return cb(data);
             });
     }
