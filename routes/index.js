@@ -74,5 +74,12 @@ router.post('/:id', function (req, res, next) {
         })
 });
 
+router.post('/:id/delete', function (req, res, next) {
+    console.log(req.params.id);
+    DiaryEntry.findByIdAndRemove(req.params.id)
+        .then(function (data) {
+            res.redirect('/');
+        })
+});
 
 module.exports = router;
