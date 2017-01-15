@@ -19,6 +19,7 @@
     "mongoose-html-2": "^0.1.1",
     "mongoose-times": "^0.1.0",
     "morgan": "~1.7.0",
+    "node-fetch": "^2.0.0-alpha.1",
     "node-sass-middleware": "0.9.8",
     "sanitize-html": "^1.14.1",
     "sanitizer": "^0.1.3",
