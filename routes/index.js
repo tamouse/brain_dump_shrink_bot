@@ -5,6 +5,14 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var moment = require('moment');
 mongoose.Promise = global.Promise;
+
+// Executing external python script
+var virtualenv = require('virtualenv');
+var path = require('path');
+var packagePath = require.resolve('../package.json')
+var env = virtualenv(packagePath);
+var script = path.resolve('tag_extractor', 'braindump_process.py');
+
 var DiaryEntry = require('./../models/diary_entry');
 
 function getDate(data) {
@@ -35,7 +43,19 @@ router.post('/', function (req, res, next) {
     newEntry.save();
     console.log("newEntry:", newEntry);
 
-    res.redirect('/');
+    var child = env.spawnPython([script]);
+
+    child.stdout.on('data', function(data) {
+        console.log(data.toString()); 
+    });
+
+    child.stderr.on('data', function(data) {
+        console.log(data.toString()); 
+    });
+
+    child.on('exit', function() {
+        res.redirect('/');
+    });
 });
 
 router.get('/new', function (req, res, next) {
@@ -74,7 +94,6 @@ router.post('/:id', function (req, res, next) {
             data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
             // data.categories = req.body.categories;
             data.save();
-
             res.redirect('/');
         })
 });

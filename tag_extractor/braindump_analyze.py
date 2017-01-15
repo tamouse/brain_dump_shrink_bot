@@ -7,6 +7,7 @@ Created on Sat Jan 14 13:09:35 2017
 Authors: Margaret Mahan
 
 Package versions:
+    python 3.5.2
     nltk 3.2.2
         # need to download corpus: python -m nltk.downloader all
 """
@@ -16,7 +17,7 @@ import nltk
 from nltk.corpus import sentiwordnet as swn
 
 # dictionary converting for sentiment analysis
-pos_dict = {'NOUN':'n', 'VERB':'v', 'ADJECTIVE':'a', 'ADJ':'a', 'ADJECTIVE SATELLITE':'s', 'ADV':'r', 'ADVERB':'r'}
+pos_dict = {'NOUN':'n', 'VERB':'v', 'ADJECTIVE':'a', 'ADJ':'a', 'ADJECTIVE SATELLITE':'s', 'PRON':'p', 'DET':'d', 'ADP':'a', 'ADV':'r', 'ADVERB':'r'}
 
 
 def tag_score(tags):
@@ -43,11 +44,18 @@ def calculate_score(tagged):
     
     n_score = 0.0
     p_score = 0.0
+    index = 0
     for i in range(len(tagged)):
-        arg1 = str(tagged[i - 1][0]) + '.' + pos_dict[tagged[i - 1][1]] + '.02'
+
+        try:
+            arg1 = str(tagged[i - 1][0]) + '.' + pos_dict[tagged[i - 1][1]] + '.02'
+        except KeyError as e:
+            print('Part of speech not in dictionary')
+            
         try:
             sentiment = swn.senti_synset(arg1)
-        except:
+        except Exception as e:
+            print('Word not in sentiment corpus')
             sentiment = []
                
         if sentiment == []:
@@ -55,8 +63,17 @@ def calculate_score(tagged):
         else:
             p_score += sentiment.pos_score()
             n_score += sentiment.neg_score()
+            index += 1
     
-    total_score = p_score - n_score
+    if not index > 0:
+        total_score = 'NaN'
+    else:
+        total_score = (p_score + n_score) / index
+        if total_score < 0.0:
+            total_score = 0.0
+        if total_score > 1.0:
+            total_score = 1.0
+        
     return total_score    
 
 # eof
