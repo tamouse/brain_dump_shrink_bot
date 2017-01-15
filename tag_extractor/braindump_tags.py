@@ -28,9 +28,10 @@ def process_content(raw, n_words, n_appear, n_pairs):
     for i in range(n_words):
         tags.append(str(words[i - 1][0]))
         
-    for i in range(n_pairs):
-        make_phrase = phrases[i - 1][0] + ' ' + phrases[i - 1][1]
-        tags.append(make_phrase)
+    if len(phrases) > 2:
+        for i in range(n_pairs):
+            make_phrase = phrases[i - 1][0] + ' ' + phrases[i - 1][1]
+            tags.append(make_phrase)
     
     return tags
 
@@ -45,7 +46,9 @@ def get_frequent_words(raw, n_words):
     # find n most frequent words
     fdist = nltk.FreqDist(output)
     freq_words = fdist.most_common(n_words)
-
+    if freq_words == []:
+        freq_words = ['none']
+    
     return freq_words
 
     
@@ -74,6 +77,8 @@ def get_frequent_word_pairs(raw, n_appear, n_pairs):
     
     # get first n pairs of most frequent bigrams
     freq_words = freq_bigrams[0:n_pairs]
+    if freq_words == []:
+        freq_words = ['none']
     
     return freq_words    
   
