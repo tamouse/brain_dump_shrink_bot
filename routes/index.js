@@ -3,8 +3,13 @@ var config = require('./../config');
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
+var moment = require('moment');
 mongoose.Promise = global.Promise;
 var DiaryEntry = require('./../models/diary_entry');
+
+function getDate(data) {
+  return moment(data);
+};
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -13,6 +18,7 @@ router.get('/', function (req, res, next) {
         .then(function (data) {
             console.log("Data:", data);
             diaryEntries = data;
+            diaryEntries.getDate = getDate;
             res.render('index',
                 {
                     title: config.app_title,

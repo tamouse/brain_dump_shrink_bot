@@ -11,15 +11,25 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %><br />
     Below are your previous entries.</p>
+    <!-- <pre>
+      <code>
+        <%=  %>
+      </code>
+    </pre> -->
     <ul>
       <% for(var i=0; i<diaryEntries.length; i++) { %>
         <li>
 
-          <%= diaryEntries[i].lastUpdated %>
+          <label>Last updated: </label><%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY HH:mm') %>
 
-          <% if (diaryEntries[i].title) { %>
-            <%= diaryEntries[i].title %> <br />
-          <% } %>
+          <button class='view button'>View</button>
+          <br />
+
+          <!-- <% if (diaryEntries[i].title) { %>
+            <b><%= diaryEntries[i].title %></b> <br />
+          <% } else { %>
+            <%= '' %> <br />
+          <% } %>   -->
 
           <%= diaryEntries[i].body %> <br />
 
@@ -33,9 +43,16 @@
             <%= element %> <br />
           <% }) %>
 
-          <%= diaryEntries[i].created %>
+          <label>Created: </label><%= diaryEntries.getDate(diaryEntries[i].created).format('MM-DD-YYYY HH:mm') %> <br />
+
+
 
         </li>
+        <br />
+        <br />
+        <div class="line"></div>
+        <br />
+        <br />
       <% } %>
     </ul>
 
