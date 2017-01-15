@@ -74,7 +74,6 @@ router.post('/:id', function (req, res, next) {
             data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
             // data.categories = req.body.categories;
             data.save();
-
             res.redirect('/');
         })
 });
