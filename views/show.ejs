@@ -11,12 +11,27 @@
 <h1><%= title %></h1>
 <p>Here's your entry...</p>
 
+<form action='/' method='put' class='display'>
 
-<p class='display'>
-  Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
-  <a href='/'><button class='button floatRight'>Save</button></a>
+  <p>
+    Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
+
+    <a href='/'><button class='button floatRight' method='delete'>Delete</button></a>
+  </p>
+
+  <textarea name="body" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
+
+  <!-- <a href='/'><button class='button floatRight'>Save</button></a> -->
+  <input class="button floatRight" type="submit" name="save" value="Save">
   <br />
-  <br />
+
+</form>
+
+<!-- <p class='display'>
+
+
+
+  </form>
 
   <%= diaryEntry.body %>
   <a href='/'><button class='button floatRight'>Delete</button></a>
@@ -32,7 +47,7 @@
 
   Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
 
-</p>
+</p> -->
 
 <a href='/'><button class='button'>ShrinkBot this entry!</button></a>
 <!-- <pre><code>
