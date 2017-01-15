@@ -15,6 +15,7 @@ function getDate(data) {
 router.get('/', function (req, res, next) {
     var diaryEntries = [];
     DiaryEntry.find()
+        .sort({created: -1})
         .then(function (data) {
             console.log("Data:", data);
             diaryEntries = data;
