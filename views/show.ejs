@@ -9,10 +9,46 @@
 <body>
 
 <h1><%= title %></h1>
-<p>Welcome to <%= title %><br>.</p>
+<p>Here's your entry...</p>
 
-<pre><code>
-        <%= JSON.stringify(diaryEntry, null, 4) %>
-    </code></pre>
+<form action="'/' + diaryEntry._id + '/edit'" method='put' class='display'>
+
+  <p>
+    Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
+  </p>
+
+  <textarea name="body" class="fullWidth" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
+
+  <br />
+
+  <p>
+    Tags: (Seperate each tag with a comma, please!)
+    <br />
+
+    <input class="fullWidth" type="text" placeholder="<% diaryEntry.tags.forEach(function(element) { %>
+        <%= element %> + ', '
+      <% }) %>">
+  </p>
+
+  <p>
+    Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
+  </p>
+
+  <div class="center">
+    <input class="button" type="submit" name="save" value="Save">
+  </div>
+
+</form>
+
+<form action="'/' + diaryEntry._id + '/delete'" method='delete' class='center'>
+  <input class="button center" type="submit" name="delete" value="Delete">
+</form>
+
+<br />
+<br />
+<br />
+
+<a href='/'><button class='button'>ShrinkBot this entry!</button></a>
+
 </body>
 </html>

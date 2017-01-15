@@ -45,11 +45,15 @@ router.get('/new', function (req, res, next) {
 router.get('/:id', function (req, res, next) {
     DiaryEntry.findById(req.params.id)
         .then(function (data) {
+          var diaryEntry;
+          diaryEntry = data;
+          diaryEntry.getDate = getDate;
             res.render('show', {
                 title: config.app_title,
                 diaryEntry: data
             })
         })
+        // diaryEntry.getDate = getDate;
 });
 
 router.get('/:id/edit', function (req, res, next) {

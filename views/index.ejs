@@ -11,10 +11,10 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %><br />
     Below are your previous entries.</p>
-    <a href='/new'><button>New entry</button></a>
+    <a href='/new'><button class='button'>New entry</button></a>
 
-    <ul>
-      
+    <ul class='display'>
+
       <div class="line"></div>
       <br />
       <br />
@@ -24,23 +24,12 @@
 
           <p>
             Last updated: <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('HH:mm') %>
-            <a href="<%= '/' + diaryEntries[i]._id.toString() %>" method='get'><button class="view">View</button></a>
+            <a href="<%= '/' + diaryEntries[i]._id.toString() %>" method='get'><button class="floatRight button">View</button></a>
           </p>
-
-          <!-- <% if (diaryEntries[i].title) { %>
-            <b><%= diaryEntries[i].title %></b> <br />
-          <% } else { %>
-            <%= '' %> <br />
-          <% } %>   -->
 
           <p>
             <%= diaryEntries[i].body %>
           </p>
-
-          <!-- <p>Categories: <br /></p>
-          <% diaryEntries[i].categories.forEach(function(element) { %>
-            <%= element %> <br />
-          <% }) %> -->
 
           <p>
             Tags:
