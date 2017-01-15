@@ -67,14 +67,16 @@ router.get('/:id/edit', function (req, res, next) {
 });
 
 router.post('/:id', function (req, res, next) {
+    console.log("Update requrest: " + req.params.id);
     DiaryEntry.findById(req.params.id)
         .then(function (data) {
+            console.log("Found item: " + data._id);
             data.title = req.body.title;
             data.body = req.body.body;
             data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
             // data.categories = req.body.categories;
             data.save();
-
+            console.log("Data:" + JSON.stringify(data, null, 2));
             res.redirect('/');
         })
 });

@@ -11,13 +11,13 @@
 <h1><%= title %></h1>
 <p>Here's your entry...</p>
 
-<form action="'/' + diaryEntry._id + '/edit'" method='put' class='display'>
+<form action="<%= '/' + diaryEntry._id %>" method='post' class='display'>
 
   <p>
     Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
   </p>
 
-  <textarea name="body" class="fullWidth" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
+  <textarea name="body" class="fullWidth" rows='8' cols='100'><%= diaryEntry.body %></textarea>
 
   <br />
 
@@ -25,9 +25,7 @@
     Tags: (Seperate each tag with a comma, please!)
     <br />
 
-    <input class="fullWidth" type="text" placeholder="<% diaryEntry.tags.forEach(function(element) { %>
-        <%= element %> + ', '
-      <% }) %>">
+    <input name="tags" class="fullWidth" type="text" value="<% diaryEntry.tags.join(', ') %>">
   </p>
 
   <p>
@@ -40,7 +38,7 @@
 
 </form>
 
-<form action="'/' + diaryEntry._id + '/delete'" method='delete' class='center'>
+<form action="<%= '/' + diaryEntry._id + '/delete' %>" method='post' class='center'>
   <input class="button center" type="submit" name="delete" value="Delete">
 </form>
 
