@@ -4,3 +4,6 @@ tmp/
 .DS_Store
 .node-virtualenv
 __pycache__
+.idea
+__pycache__
+tmp/
