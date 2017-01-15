@@ -44,8 +44,8 @@ def main():
         get_tags.extend(new_tags)
         
         # process content and create score
-        score_t = float('{:03.2f}'.format(tag_score(new_tags))) # unused
-        score_c = float('{:03.2f}'.format(content_score(raw)))
+        # score_t = float('{:03.2f}'.format(tag_score(new_tags))) # unused
+        score_c = content_score(raw)
         
         # push tags to mongo              
         cursor.collection.update_one({"_id":df._id[row.Index]}, {"$set": {"tags":get_tags}, "$currentDate":{"lastModified":True}}, True, False)
