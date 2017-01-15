@@ -67,7 +67,7 @@ router.post('/:id', function (req, res, next) {
         .then(function (data) {
             data.title = req.body.title;
             data.body = req.body.body;
-            // data.tags = req.body.tags;
+            data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
             // data.categories = req.body.categories;
             data.save();
 
