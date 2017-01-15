@@ -35,4 +35,38 @@ router.get('/new', function (req, res, next) {
     res.render('new', { title: config.app_title })
 });
 
+router.get('/:id', function (req, res, next) {
+    DiaryEntry.findById(req.params.id)
+        .then(function (data) {
+            res.render('show', {
+                title: config.app_title,
+                diaryEntry: data
+            })
+        })
+});
+
+router.get('/:id/edit', function (req, res, next) {
+    DiaryEntry.findById(req.params.id)
+        .then(function (data) {
+            res.render('edit', {
+                title: config.app_title,
+                diaryEntry: data
+            })
+        })
+});
+
+router.post('/:id', function (req, res, next) {
+    DiaryEntry.findById(req.params.id)
+        .then(function (data) {
+            data.title = req.body.title;
+            data.body = req.body.body;
+            // data.tags = req.body.tags;
+            // data.categories = req.body.categories;
+            data.save();
+
+            res.redirect('/');
+        })
+});
+
+
 module.exports = router;
