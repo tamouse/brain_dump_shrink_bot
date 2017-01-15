@@ -15,6 +15,7 @@ function getDate(data) {
 router.get('/', function (req, res, next) {
     var diaryEntries = [];
     DiaryEntry.find()
+        .sort({created: -1})
         .then(function (data) {
             console.log("Data:", data);
             diaryEntries = data;
@@ -70,7 +71,7 @@ router.post('/:id', function (req, res, next) {
         .then(function (data) {
             data.title = req.body.title;
             data.body = req.body.body;
-            // data.tags = req.body.tags;
+            data.tags = req.body.tags.trim().split(/,[ \r\n\t]*/);
             // data.categories = req.body.categories;
             data.save();
 
