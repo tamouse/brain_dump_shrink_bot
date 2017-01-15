@@ -8,8 +8,20 @@ body {
 a {
   color: #00B7FF; }
 
-.submit {
+ul {
+  margin: 5% 20%;
+  list-style: none;
+  text-align: left; }
+
+.button {
   font-size: 120%;
   border-radius: 5px; }
+
+.line {
+  height: 2px;
+  background-color: #858585; }
+
+.view {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */
