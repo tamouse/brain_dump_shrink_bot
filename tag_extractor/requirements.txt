@@ -1,0 +1,7 @@
+nltk==3.2.2
+numpy==1.11.3
+pandas==0.19.2
+pymongo==3.4.0
+python-dateutil==2.6.0
+pytz==2016.10
+six==1.10.0
