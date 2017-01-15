@@ -47,8 +47,6 @@ def main():
         # process content and create score
         score_t = float('{:03.2f}'.format(tag_score(new_tags))) # unused
         score_c = float('{:03.2f}'.format(content_score(raw))) # formatting works with 3.5 but not 3.4
-        
-        # push tags to mongo              
         cursor.collection.update_one({"_id":df._id[row.Index]}, {"$set": {"tags":get_tags}, "$currentDate":{"lastModified":True}}, True, False)
     
         # push score to mongo
