@@ -9,10 +9,34 @@
 <body>
 
 <h1><%= title %></h1>
-<p>Welcome to <%= title %><br>.</p>
+<p>Here's your entry...</p>
 
-<pre><code>
+
+<p class='display'>
+  Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
+  <a href='/'><button class='button floatRight'>Save</button></a>
+  <br />
+  <br />
+
+  <%= diaryEntry.body %>
+  <a href='/'><button class='button floatRight'>Delete</button></a>
+  <br />
+  <br />
+
+  Tags:
+  <% diaryEntry.tags.forEach(function(element) { %>
+    <%= element %>
+  <% }) %>
+  <br />
+  <br />
+
+  Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
+
+</p>
+
+<a href='/'><button class='button'>ShrinkBot this entry!</button></a>
+<!-- <pre><code>
         <%= JSON.stringify(diaryEntry, null, 4) %>
-    </code></pre>
+    </code></pre> -->
 </body>
 </html>
