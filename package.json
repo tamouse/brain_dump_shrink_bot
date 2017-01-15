@@ -30,7 +30,7 @@
     "virtualenv": "^0.3.1"
   },
   "virtualenv": {
-    "python": "/Library/Frameworks/Python.framework/Versions/3.4/bin/python3"
+    "python": "/usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/bin/python3.5"
   },
   "description": "HackTheGap 2017 Project",
   "main": "app.js",
