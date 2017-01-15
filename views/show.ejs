@@ -11,42 +11,42 @@
 <h1><%= title %></h1>
 <p>Here's your entry...</p>
 
-<form action="'/' + diaryEntry._id + '/delete'" method='delete' class='display'>
+<form action="'/' + diaryEntry._id + '/edit'" method='put' class='display'>
 
   <p>
     Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
-
-    <input class="button floatRight" type="submit" name="delete" value="Delete">
   </p>
 
-</form>
+  <textarea name="body" class="fullWidth" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
 
-<form action="'/' + diaryEntry._id + '/edit'" method='put' class='display'>
-
-  <textarea name="body" rows='8' cols='100' placeholder='<%=diaryEntry.body%>'></textarea>
-
-  <input class="button floatRight" type="submit" name="save" value="Save">
   <br />
 
   <p>
-    Tags:
+    Tags: (Seperate each tag with a comma, please!)
     <br />
 
-    Seperate each tag with a comma, please!
-    <br />
-
-    <input type="text" placeholder="<% diaryEntry.tags.forEach(function(element) { %>
+    <input class="fullWidth" type="text" placeholder="<% diaryEntry.tags.forEach(function(element) { %>
         <%= element %> + ', '
       <% }) %>">
   </p>
 
+  <p>
+    Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
+  </p>
+
+  <div class="center">
+    <input class="button" type="submit" name="save" value="Save">
+  </div>
+
 </form>
 
-<p class='display'>
+<form action="'/' + diaryEntry._id + '/delete'" method='delete' class='center'>
+  <input class="button center" type="submit" name="delete" value="Delete">
+</form>
 
-  Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
-
-</p>
+<br />
+<br />
+<br />
 
 <a href='/'><button class='button'>ShrinkBot this entry!</button></a>
 

@@ -11,7 +11,7 @@ a {
 ul {
   list-style: none; }
 
-button {
+.button {
   font-size: 20px;
   border-radius: 5px;
   border: none;
@@ -29,5 +29,11 @@ button {
 
 .floatRight {
   float: right; }
+
+.center {
+  text-align: center; }
+
+.fullWidth {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
