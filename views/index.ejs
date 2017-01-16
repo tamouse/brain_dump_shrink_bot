@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8' />
+<head>
+    <meta charset='utf-8'/>
     <title><%= title %></title>
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
 
-    <h1><%= title %></h1>
-    <p>Below is your BrainDumpster<br />
-    </p>
-    <a href='/new'><button class='button'>New entry</button></a>
+<h1><%= title %></h1>
+<p>Below is your BrainDumpster<br/>
+</p>
+<a href='/new'>
+    <button class='button'>New entry</button>
+</a>
 
-    <ul class='display'>
+<ul class='display'>
 
-      <div class="line"></div>
-      <br />
-      <br />
+    <div class="line"></div>
+    <br/>
+    <br/>
 
-      <% for(var i=0; i<diaryEntries.length; i++) { %>
-        <li>
+    <% for(var i = 0; i < diaryEntries.length; i++) { %>
+    <li>
 
-          <p>
-            Last updated: <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('HH:mm') %>
-            <a href="<%= '/' + diaryEntries[i]._id.toString() %>" method='get'><button class="floatRight button">View</button></a>
-          </p>
+        <p>
+            Last updated: <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('MM-DD-YYYY') %>
+            at <%= diaryEntries.getDate(diaryEntries[i].lastUpdated).format('HH:mm') %>
+            <a href="<%= '/' + diaryEntries[i]._id.toString() %>" method='get'>
+                <button class="floatRight button">View</button>
+            </a>
+        </p>
 
-          <p>
+        <p>
             <%= diaryEntries[i].body %>
-          </p>
+        </p>
 
-          <p>
+        <p>
             Tags:
             <% diaryEntries[i].tags.forEach(function(element) { %>
-              <%= element %>
+            <%= element %>
             <% }) %>
-          </p>
+        </p>
 
-          <p>
-            Created: <%= diaryEntries.getDate(diaryEntries[i].created).format('MM-DD-YYYY') %> at <%= diaryEntries.getDate(diaryEntries[i].created).format('HH:mm') %>
-          </p>
+        <p>
+            Created: <%= diaryEntries.getDate(diaryEntries[i].created).format('MM-DD-YYYY') %>
+            at <%= diaryEntries.getDate(diaryEntries[i].created).format('HH:mm') %>
+        </p>
 
-        </li>
-        <br />
-        <br />
-        <div class="line"></div>
-        <br />
-        <br />
-      <% } %>
-    </ul>
+    </li>
+    <br/>
+    <br/>
+    <div class="line"></div>
+    <br/>
+    <br/>
+    <% } %>
+</ul>
 
-  </body>
+</body>
 </html>

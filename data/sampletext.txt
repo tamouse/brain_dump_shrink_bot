@@ -1,0 +1,338 @@
+https://en.wikipedia.org/wiki/Hackathon
+
+There have been a number of hackathons devoted to improving government, and specifically to the cause of open government.[37] One such event, in 2011, was hosted by the United States Congress.[38] Starting in 2012, NASA has been annually hosting the International Space Apps Challenge.
+
+In 2014, the British government and HackerNest ran DementiaHack,[39] the world's first hackathon dedicated to improving the lives of people living with dementia and their caregivers.[40][41] The series continues in 2015, adding the Canadian government and Facebook as major sponsors.[42]
+The judging panel (seated, left) at DementiaHack asking questions of a team that just demoed their project (standing, right).
+
+NHS England benefit from a community of supporters running regular hackdays.[43] These are planned 3 times a year are held in a variety of locations including London, Cardiff, Manchester, Oxford, leeds and Cambridge. The first NHS Hackday was held in London on May 26, 2012.
+
+With over 6,000 registrations in their first year, HackingEDU's hackathon, held in San Mateo, California, is the world's largest education hackathon by attendance on October 23, 2015.[44] The event is run by a non-profit organization whose mission is to "inspire the next generation of students to solve the problems that plague our education system."[45]
+
+The Global Game Jam, the largest video game development hackathon,[46] often includes optional requirements called 'diversifiers'[47] that aim to promote game accessibility and other causes.[48][49]
+
+Various hackathons have been held to improve city transit systems.[50] Hackathons aimed at improvements to city local services are increasing, with one of the London Councils (Hackney) creating a number of successful local solutions on a 2 Day Hackney-thon [51] There have also been a number of hackathons devoted to improving education, including Education Hack Day[52] and on a smaller scale, looking specifically at the challenges of field work based geography education, the Field Studies Council[53] hosted FSCHackday.[54] Random Hacks of Kindness is another popular hackathon, devoted to disaster management and crisis response.[55]
+
+Hackathons have also been held to benefit nonprofit organizations with their technology and website needs. For example, Florida DrupalCamp's Coding with a Cause, Chennai based non-profit Code 4 Cause,[56] and Droplabs' Coders with a Cause [57] events both benefit local nonprofits.
+
+Hack for Big Choices is an organization that organizes hackathons around the world in order to come up with solutions to local problems. Among the hackathons they have co-organized was the largest hackathon ever held in Africa, which took place in Accra on February 20–22, 2015; it gathered 215 hackers and more than 400 attendees.
+
+
+
+https://en.wikipedia.org/wiki/List_of_United_States_stand-up_comedians
+
+    Ben Bailey
+    Lucille Ball
+    Maria Bamford
+    Nate Bargatze
+    Arj Barker
+    Roseanne Barr
+    Chuck Barris
+    Todd Barry
+    Greg Behrendt
+    Richard Belzer
+    Owen Benjamin
+    Ron Bennington
+    Jack Benny
+    Doug Benson
+    Milton Berle
+    Shelley Berman
+    Sandra Bernhard
+    Matt Besser
+    Bianca Del Rio
+    Michelle Biloon
+    Mike Birbiglia
+    Joey Bishop
+    Lewis Black
+    Michael Ian Black
+    Chris Bliss
+    Josh Blue
+    Alonzo Bodden
+    Elayne Boosler
+    Wayne Brady
+    Joey Bragg
+    John Branyan
+    Creed Bratton
+    Matt Braunger
+    Kurt Braunohler
+    Shaun Eli Breidbart
+    Kevin Brennan
+    Neal Brennan
+    David Brenner
+    Jim Breuer
+    Janine Brito
+    Dylan Brody
+    Mel Brooks
+    Bruce Bruce
+    Lenny Bruce
+    Andy Bumatai
+    Hannibal Buress
+    Bo Burnham
+    George Burns
+    Bill Burr
+    Brett Butler
+    King Kong Bundy
+    Red Buttons
+    John Byner
+    Steve Byrne
+
+
+https://en.wikipedia.org/wiki/Voyager_Golden_Record
+
+In the upper left-hand corner is a drawing of the phonograph record and the stylus carried with it. The stylus is in the correct position to play the record from the beginning. Written around it in binary arithmetic is the correct time of one rotation of the record, 3.6 seconds, expressed in time units of 0.70 billionths of a second, the time period associated with a fundamental transition of the hydrogen atom. The drawing indicates that the record should be played from the outside in. Below this drawing is a side view of the record and stylus, with a binary number giving the time to play one side of the record – about an hour.
+
+The information in the upper right-hand portion of the cover is designed to show how pictures are to be constructed from the recorded signals. The top drawing shows the typical signal that occurs at the start of a picture. The picture is made from this signal, which traces the picture as a series of vertical lines, similar to analog television (in which the picture is a series of horizontal lines). Picture lines 1, 2 and 3 are noted in binary numbers, and the duration of one of the "picture lines," about 8 milliseconds, is noted. The drawing immediately below shows how these lines are to be drawn vertically, with staggered "interlace" to give the correct picture rendition. Immediately below this is a drawing of an entire picture raster, showing that there are 512 (29) vertical lines in a complete picture. Immediately below this is a replica of the first picture on the record to permit the recipients to verify that they are decoding the signals correctly. A circle was used in this picture to ensure that the recipients use the correct ratio of horizontal to vertical height in picture reconstruction. Color images were represented by three images in sequence, one each for red, green, and blue components of the image. A color image of the spectrum of the sun was included for calibration purposes.
+
+The drawing in the lower left-hand corner of the cover is the pulsar map previously sent as part of the plaques on Pioneers 10 and 11. It shows the location of the solar system with respect to 14 pulsars, whose precise periods are given. The drawing containing two circles in the lower right-hand corner is a drawing of the hydrogen atom in its two lowest states, with a connecting line and digit 1 to indicate that the time interval associated with the transition from one state to the other is to be used as the fundamental time scale, both for the time given on the cover and in the decoded pictures.[10]
+
+Much like the Pioneer Plaque, controversy surrounded the complexity of the record and its accompanying stylus.
+
+
+http://overheard.liketodiscover.com/the-greatest-ryan-air-complaint-letter-in-the-world-ever/
+
+Dear Sir/Madam,
+
+I am writing for the attention of your customer experience team. I am definitely a customer, and believe me, you didn’t fail providing us with an experience.
+
+My wife and I had booked to fly from Stansted on the Thursday 17th April, evening flight to Bratislava. After 2 hours of fun, fun, fun, stuck on the M25 doing 20 mph, we arrived at Stansted check in with just one hour until the flight. Knowing the strict Ryan Air policy on ‘check in closes 40 mins before the flight’ as you are the Low Fare Taxi of The Skies, we went straight to the Ryan Air assistant and explained our plight. She said we were still within the time and all would be fine but we had to make the attendant at check in aware and he would assist from there.
+
+We approached the attendant as instructed and explained. Unfortunately, in the main part, due to him being a child, and forgetting to bring his mother to work, he heard only half of the words before his brain fell apart like a wet cake. He led us to the line for closing gates, advised we should wait and all would be ok. We stood patiently in the line for 20 minutes. We got to the front of the line and the lady, who we shall from this point refer to a Vacant, explained that she had literally just that second closed the flight and we had missed it. We complained that we had done as instructed and she said it was the child’s fault because he should have advised her that we were trying to board a closing flight and that because he hadn’t told her it was therefore our fault we had missed the plane.
+
+Confused by this process of blame apportioning, another check in clerk, who we shall refer to as Not That Bright, tried to blame us for not responding to the last call for the flight as we should have made ourselves known. I argued that the last call had not been made. Not That Bright then questioned Vacant on whether she had done a final call. Vacant did what she does best and looked, well,…… After establishing that the child had not informed Vacant we were here, and Vacant had forgotten to do a last call and that all of this was irreversible, and my fault, Not That Bright and Vacant conferred to agree this was not a problem they wished to deal with and told us to get in a very, very long line of very, very unhappy people at the quite wrongly titled ‘Customer Services Counter’ as it was in fact a Customer Shouting Desk. We complained and requested the attention of a manager.
+
+Out came Colin, a man so angry all his hair had literally fallen out. He was so aggressive I can only assume he had accidentally inserted something sharp into somewhere private and been unable to remove it before he came to work. He was definitely a Middle Jerk. I know this as Vacant and Not That Bright were clearly quite scared of him, and he can’t have been a Big Cheese as he was talking directly to customers and we all know from the papers that no-one in Big Cheese management at Ryan Air has ever seen, let alone spoken to an actual customer.
+
+Middle Jerk had clearly listen hard at Ryan Air Middle Jerk school as he managed to take two perfectly calm and sane adults and in a matter of seconds reduce them to angry people considering violence.
+
+‘Check in opens 3 hours before the flight’ he barked repeatedly as if it was the answer to every question in life. We tried to ask Middle Jerk direct questions about why it was necessary for us to miss the flight because the Child had forgotten to do his job, and Vacant had forgotten to do hers.
+
+‘Why is this our fault, and why should we miss the flight because Ryan Air staff have admitted they made errors?.
+
+‘Check in opens three hours before the flight’
+
+‘Do you acknowledge we have just cause for complaint as we tried to do the right thing and the only reason we are not on the plane is because of communication failures with Ryan Air Staff?’
+
+‘Check in opens three hours before the flight’
+
+‘What colour are my trousers?’
+
+‘Check in opens three hours before the flight’
+
+‘Do you think economic sanctions on Russia will diffuse the escalating situation in Ukraine?’
+
+‘Check in opens three hours before the flight’
+
+‘Were Man Utd right to fire David Moyes?’
+
+‘Check in opens three hours before the flight’
+
+‘My tinkle is hurting, could you take a look if I promise not to tell anyone?’
+
+‘Check in opens three hours before the flight’
+
+Middle Jerk then conferred with Vacant and Not That Bright, and agreed that this was all our fault as we should have noticed that Child had made an error and we should have called the flight ourselves to assist Vacant in doing her job because she was clearly busy being, well,…… Middle Jerk then insisted we go to customer the Customer Shouting Desk, as he was definitely not going to do anything else. This was handy as the queue was very long so that by the time we would reach the front the plane would be half way to Bratislava and the problem would be solved.
+
+We waited patiently in line as customer after customer stood at the desk to hear the same song;
+
+‘No, no, I can’t do that, no, there are no Middle Jerks available, no, no, sorry, no, give me all your money’
+
+We got to the Customer Shouting Desk and explained our plight to the lady there (who was actually very nice and clearly should not be working for Ryan Air as a result). She apologised but explained that Middle Jerk had finished being angry for the day and had returned to his padded cage and there were no other Middle Jerks around. We would have to book in to the flight for the next day and we would have to pay £110 each to change the ticket. When she tried to re-book the flight she said that the flight we had tried to get was actually delayed by 1 hour and still at the air port and that what we should do is run to the gate with all our luggage, she would call through and they would check our bags into the hold at the gate. We ran as fast as we could, which is not very fast because I am fat, to security to do as instructed. Security advised us that because our flight should have left, even though it hadn’t, the ticket machine would not open the barrier for us and we would need to return to the Customer Shouting Desk.
+
+We waited patiently in the very long queue yet again for about 40 minutes to discover the nice lady had also gone home now so we had to explain the whole thing again to a new lady that looked like all the joy had been removed from her life at birth. She recited the Ryan Air customer services song with a sterling level of apathy and dreariness, I am surprised she could muster the will just to breather and stay alive.
+
+‘No, no, I can’t do that, no, there are no Middle Jerks available, no, no, sorry, no, give me all your money’
+
+She recited it with perfection, Middle Jerks across the world would have been in awe and the effectiveness of the techniques taught in Middle Jerk School. Seeing no other option but to hand over all our cash and come back the next morning we happily paid and got new flights.
+
+As the new flight was at 6.25am in the morning we decided to get a hotel, we paid £79 for a room and got a taxi.
+
+So, our customer experience was insightful and liberating. From the incompetent Child with a brain so full of girls and Vauxhall Corsa modifications he couldn’t actually listen or speak, through Vacant and Not That Bright who decided on reflection that anything they did wrong was our fault for not pointing it out to them, right through Middle Jerk who made a Tasmanian Devil look calm and Zen like, and the sad one, oh so sad, having every last drop of life sucked out of her by her chosen career at the Ryan Air Customer Shouting Desk. I very nearly jumped over the desk just to give her a cuddle and tell her everything would be alright if she could just muster the will to leave the Ryan Air Customer Shouting Desk and find a more fulfilling job, like starting the very first Israeli pork pie factory, or being a parking attendant in Tower Hamlets, or in fact just resigning herself to a slow and uncomfortable death would have been indistinguishable from the current position and would require much less effort.
+
+The net result of this ‘experience’ was;
+
+New Flights – £220
+Hotel £79
+Taxi x 2 £50
+Worlds most expensive sandwich in the only hotel we could get £35
+
+1 x significant breach of Tort Law (2008 as quoted by Lord Atkin) by Ryan Air, Google it, it’s a cracking read. I will leave you to decide the monetary value of this.
+
+1 x very angry and upset wife, in particular with Middle Jerk for being so unbelievably rude.
+
+1 x Missed wedding reception for our Slovakian family (sorry, forgot to mention this nugget earlier) who all turned up from all over the country to see us for an event we were forced to miss, because Child and Vacant are clueless at best and Middle Jerk has anger management issues.
+
+So, thank you Ryan Air for a comfortable and enjoyable experience. I have watched a program called the news so I fully expect this to land on the desk of the customer services team underneath the empty bottles and sandwich wrappers that you also file there. You treated us badly, you cost us money and made us miss our wedding reception through a display of incompetence I have not seen since Greece was allowed to have money and a cheque book.
+
+I sincerely doubt you will do anything about this, compensate us, apologise, or even respond according to the news, so I have sent this recorded and sign for delivery to absolutely confirm my opinion of Ryan Air and that it is not just ‘lost in the post’
+
+Regards
+
+You bunch of…………….
+
+P.S. Maybe Middle Jerk in particular, but Child, Not That Bright, and Vacant should purchase one of your reasonable priced tickets and go to Slovakia (assuming they were actually allowed on the plane. The Ryan Air employees there are smart, clever, bilingual, helpful, and polite and they should in my opinion experience an example of how they should do their job. The Slovak staff could explain it to them, but they wouldn’t be able to understand it for them, so it may be a waste of time after all.
+
+http://www.americanrhetoric.com/speeches/mlkihaveadream.htm
+
+I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
+
+Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.
+
+But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the Negro is still languished in the corners of American society and finds himself an exile in his own land. And so we've come here today to dramatize a shameful condition.
+
+In a sense we've come to our nation's capital to cash a check. When the architects of our republic wrote the magnificent words of the Constitution and the Declaration of Independence, they were signing a promissory note to which every American was to fall heir. This note was a promise that all men, yes, black men as well as white men, would be guaranteed the "unalienable Rights" of "Life, Liberty and the pursuit of Happiness." It is obvious today that America has defaulted on this promissory note, insofar as her citizens of color are concerned. Instead of honoring this sacred obligation, America has given the Negro people a bad check, a check which has come back marked "insufficient funds."
+
+But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. And so, we've come to cash this check, a check that will give us upon demand the riches of freedom and the security of justice.
+
+We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. Now is the time to make real the promises of democracy. Now is the time to rise from the dark and desolate valley of segregation to the sunlit path of racial justice. Now is the time to lift our nation from the quicksands of racial injustice to the solid rock of brotherhood. Now is the time to make justice a reality for all of God's children.
+
+It would be fatal for the nation to overlook the urgency of the moment. This sweltering summer of the Negro's legitimate discontent will not pass until there is an invigorating autumn of freedom and equality. Nineteen sixty-three is not an end, but a beginning. And those who hope that the Negro needed to blow off steam and will now be content will have a rude awakening if the nation returns to business as usual. And there will be neither rest nor tranquility in America until the Negro is granted his citizenship rights. The whirlwinds of revolt will continue to shake the foundations of our nation until the bright day of justice emerges.
+
+But there is something that I must say to my people, who stand on the warm threshold which leads into the palace of justice: In the process of gaining our rightful place, we must not be guilty of wrongful deeds. Let us not seek to satisfy our thirst for freedom by drinking from the cup of bitterness and hatred. We must forever conduct our struggle on the high plane of dignity and discipline. We must not allow our creative protest to degenerate into physical violence. Again and again, we must rise to the majestic heights of meeting physical force with soul force.
+
+The marvelous new militancy which has engulfed the Negro community must not lead us to a distrust of all white people, for many of our white brothers, as evidenced by their presence here today, have come to realize that their destiny is tied up with our destiny. And they have come to realize that their freedom is inextricably bound to our freedom.
+
+We cannot walk alone.
+
+And as we walk, we must make the pledge that we shall always march ahead.
+
+We cannot turn back.
+
+There are those who are asking the devotees of civil rights, "When will you be satisfied?" We can never be satisfied as long as the Negro is the victim of the unspeakable horrors of police brutality. We can never be satisfied as long as our bodies, heavy with the fatigue of travel, cannot gain lodging in the motels of the highways and the hotels of the cities. *We cannot be satisfied as long as the negro's basic mobility is from a smaller ghetto to a larger one. We can never be satisfied as long as our children are stripped of their self-hood and robbed of their dignity by signs stating: "For Whites Only."* We cannot be satisfied as long as a Negro in Mississippi cannot vote and a Negro in New York believes he has nothing for which to vote. No, no, we are not satisfied, and we will not be satisfied until "justice rolls down like waters, and righteousness like a mighty stream."¹
+
+I am not unmindful that some of you have come here out of great trials and tribulations. Some of you have come fresh from narrow jail cells. And some of you have come from areas where your quest -- quest for freedom left you battered by the storms of persecution and staggered by the winds of police brutality. You have been the veterans of creative suffering. Continue to work with the faith that unearned suffering is redemptive. Go back to Mississippi, go back to Alabama, go back to South Carolina, go back to Georgia, go back to Louisiana, go back to the slums and ghettos of our northern cities, knowing that somehow this situation can and will be changed.
+
+Let us not wallow in the valley of despair, I say to you today, my friends.
+
+And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.
+
+I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."
+
+I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.
+
+I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.
+
+I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.
+
+I have a dream today!
+
+I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" -- one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
+
+I have a dream today!
+
+I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; "and the glory of the Lord shall be revealed and all flesh shall see it together."2
+
+This is our hope, and this is the faith that I go back to the South with.
+
+With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.
+
+And this will be the day -- this will be the day when all of God's children will be able to sing with new meaning:
+
+    My country 'tis of thee, sweet land of liberty, of thee I sing.
+
+    Land where my fathers died, land of the Pilgrim's pride,
+
+    From every mountainside, let freedom ring!
+
+ 
+
+And if America is to be a great nation, this must become true.
+
+And so let freedom ring from the prodigious hilltops of New Hampshire.
+
+    Let freedom ring from the mighty mountains of New York.
+
+    Let freedom ring from the heightening Alleghenies of Pennsylvania.
+
+    Let freedom ring from the snow-capped Rockies of Colorado.
+
+    Let freedom ring from the curvaceous slopes of California.
+
+ 
+
+But not only that:
+
+    Let freedom ring from Stone Mountain of Georgia.
+
+    Let freedom ring from Lookout Mountain of Tennessee.
+
+    Let freedom ring from every hill and molehill of Mississippi.
+
+    From every mountainside, let freedom ring.
+
+ 
+
+And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
+
+                Free at last! Free at last!
+
+                Thank God Almighty, we are free at last!3
+
+
+
+http://www.americanrhetoric.com/speeches/shirleychisholmequalrights.htm
+
+Mr. Speaker, House Joint Resolution 264, before us today, which provides for equality under the law for both men and women, represents one of the most clear-cut opportunities we are likely to have to declare our faith in the principles that shaped our Constitution. It provides a legal basis for attack on the most subtle, most pervasive, and most institutionalized form of prejudice that exists. Discrimination against women, solely on the basis of their sex, is so widespread that is seems to many persons normal, natural and right.
+
+Legal expression of prejudice on the grounds of religious or political belief has become a minor problem in our society. Prejudice on the basis of race is, at least, under systematic attack. Their is reason for optimism that it will start to die with the present, older generation. It is time we act to assure full equality of opportunity to those citizens who, although in a majority, suffer the restrictions that are commonly imposed on minorities, to women.
+
+The argument that this amendment will not solve the problem of sex discrimination is not relevant. If the argument were used against a civil rights bill, as it has been used in the past, the prejudice that lies behind it would be embarrassing. Of course laws will not eliminate prejudice from the hearts of human beings. But that is no reason to allow prejudice to continue to be enshrined in our laws -- to perpetuate injustice through inaction.
+
+The amendment is necessary to clarify countless ambiguities and inconsistencies in our legal system. For instance, the Constitution guarantees due process of law, in the 5th and 14th amendments. But the applicability of due process of sex distinctions is not clear. Women are excluded from some State colleges and universities. In some States, restrictions are placed on a married woman who engages in an independent business. Women may not be chosen for some juries. Women even receive heavier criminal penalties than men who commit the same crime. What would the legal effects of the equal rights amendment really be? The equal rights amendment would govern only the relationship between the State and its citizens -- not relationships between private citizens. The amendment would be largely self-executing, that is, and Federal or State laws in conflict would be ineffective one year after date of ratification without further action by the Congress or State legislatures.
+
+Opponents of the amendment claim its ratification would throw the law into a state of confusion and would result in much litigation to establish its meaning. This objection overlooks the influence of legislative history in determining intent and the recent activities of many groups preparing for legislative changes in this direction.
+
+State labor laws applying only to women, such as those limiting hours of work and weights to be lifted would become inoperative unless the legislature amended them to apply to men. As of early 1970 most States would have some laws that would be affected. However, changes are being made so rapidly as a result of title VII of the Civil Rights Act of 1964, it is likely that by the time the equal rights amendment would become effective; no confliction State laws would remain.
+
+In any event, there has for years been great controversy as to the usefulness to women of these State labor laws. There has never been any doubt that they worked a hardship on women who need or want to work overtime and on women who need or want better paying jobs, and there has been no persuasive evidence as to how many women benefit from the archaic policy of the laws. After the Delaware hours law was repealed in 1966, there were no complaints from women to any of the State agencies that might have been approached.
+
+Jury service laws not making women equally liable for jury service would have been revised. The selective service law would have to include women, but women would not be required to serve in the Armed Forces where they are not fitted any more than men are required to serve. Military service, while a great responsibility, is not without benefits, particularly for young men with limited education or training.
+
+Since October 1966, 246,000 young men who did not meet the normal mental or physical requirements have been given opportunities for training and correcting physical problems. This opportunity is not open to their sisters. Only girls who have completed high school and meet high standards on the educational test can volunteer. Ratification of the amendment would not permit application of higher standards to women.
+
+Survivorship benefits would be available to husbands of female workers on the same basis as to wives of male workers. The Social Security Act and the civil service and military service retirement acts are in conflict. Public schools and universities could not be limited to one sex and could not apply different admission standards to men and women. Laws requiring longer prison sentences for women than men would be invalid, and equal opportunities for rehabilitation and vocational training would have to be provided in public correctional institutions. Different ages of majority based on sex would have to be harmonized. Federal, State, and other governmental bodies would be obligated to follow nondiscriminatory practices in all aspects of employment, including public school teachers and State university and college faculties.
+
+What would be the economic effects of the equal rights amendment? Direct economic effects would be minor. If any labor laws applying only to women still remained, their amendment or repeal would provide opportunity for women in better-paying jobs in manufacturing. More opportunities in public vocational and graduate schools for women would also tend to open up opportunities in better jobs for women.
+
+Indirect effects could be much greater. The focusing of public attention on the gross legal, economic, and social discrimination against women by hearings and debates in the Federal and State legislatures would result in changes in attitude of parents, educators, and employers that would bring about substantial economic changes in the long run.
+
+Sex prejudice cuts both ways. Men are oppressed by the requirements of the Selective Service Act, by enforced legal guardianship of minors, and by alimony laws. Each sex, I believe, should be liable when necessary to serve and defend this country. Each has a responsibility for the support of children.
+
+There are objections raised to wiping out laws protecting women workers. No one would condone exploitation. But what does sex have to do with it. Working conditions and hours that are harmful to women are harmful to men; wages that are unfair for women are unfair for men. Laws setting employment limitations on the basis of sex are irrational, and the proof of this is their inconsistency from State to State. The physical characteristics of men and women are not fixed, but cover two wide spans that have a great deal of overlap. It is obvious, I think, that a robust woman could be more fit for physical labor than a weak man. The choice of occupation would be determined by individual capabilities, and the rewards for equal works should be equal.
+
+This is what it comes down to: artificial distinctions between persons must be wiped out of the law. Legal discrimination between the sexes is, in almost every instance, founded on outmoded views of society and the pre-scientific beliefs about psychology and physiology. It is time to sweep away these relics of the past and set further generations free of them.
+
+Federal agencies and institutions responsible for the enforcement of equal opportunity laws need the authority of a Constitutional amendment. The 1964 Civil Rights Act and the 1963 Equal Pay Act are not enough; they are limited in their coverage -- for instance, one excludes teachers, and the other leaves out administrative and professional women. The Equal Employment Opportunity Commission has not proven to be an adequate device, with its power limited to investigation, conciliation, and recommendation to the Justice Department. In its cases involving sexual discrimination, it has failed in more than one-half. The Justice Department has been even less effective. It has intervened in only one case involving discrimination on the basis of sex, and this was on a procedural point. In a second case, in which both sexual and racial discrimination were alleged, the racial bias charge was given far greater weight.
+
+Evidence of discrimination on the basis of sex should hardly have to be cited here. It is in the Labor Department’s employment and salary figures for anyone who is still in doubt. Its elimination will involve so many changes in our State and Federal laws that, without the authority and impetus of this proposed amendment, it will perhaps take another 194 years. We cannot be parties to continuing a delay. The time is clearly now to put this House on record for the fullest expression of that equality of opportunity which our founding fathers professed. They professed it, but they did not assure it to their daughters, as they tried to do for their sons.
+
+The Constitution they wrote was designed to protect the rights of white, male citizens. As there were no black Founding Fathers, there were no founding mothers -- a great pity, on both counts. It is not too late to complete the work they left undone. Today, here, we should start to do so.
+
+In closing I would like to make one point. Social and psychological effects will be initially more important than legal or economic results. As Leo Kanowitz has pointed out:
+
+    Rules of law that treat of the sexes per see inevitably produce far-reaching effects upon social, psychological and economic aspects of male-female relations beyond the limited confines of legislative chambers and courtrooms. As long as organized legal systems, at once the most respected and most feared of social institutions, continue to differentiate sharply, in treatment or in words, between men and women on the basis of irrelevant and artificially created distinctions, the likelihood of men and women coming to regard one another primarily as fellow human beings and only secondarily as representatives of another sex will continue to be remote. When men and women are prevented from recognizing one another’s essential humanity by sexual prejudices, nourished by legal as well as social institutions, society as a whole remains less than it could otherwise become.
+
+    
+Tags:
+Letters
+Wikipedia
+complaints
+funny
+links
+found
+list
+space
+nasa
+VOYAGER
+RECORD
+voyager-record
+hackathon
+comedians
+MLK
+martin luther king
+speech
+I have a dream
+chisholm
+women
+shirley chisolm
+
+
