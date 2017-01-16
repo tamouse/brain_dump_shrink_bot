@@ -18,7 +18,23 @@
 
 * [In Search of Quotes  bwgz57](https://bwgz57.wordpress.com/2013/02/14/in-search-of-quotes/)
 
+## Corpus list
 
+* Twitter Samples: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/twitter_samples.zip
+
+* WordNet: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/wordnet.zip
+
+* Web Text Corpus: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/webtext.zip
+
+* Comparative Sentence DataSet: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/comtrans.zip
+
+* Opinion Lexicon: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/opinion_lexicon.zip
+
+* SentiWordNEt: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/sentiwordnet.zip
+
+  * SentiWordNet is a lexical resource for opinion mining. SentiWordNet assigns to each synset of WordNet three sentiment scores: positivity, negativity, objectivity. SentiWordNet is described in details in the papers
+
+* Experimental data for questions: https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/qc.zip
 
 ## Background Material
 
