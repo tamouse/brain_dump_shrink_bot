@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8' />
+    <meta charset='utf-8'/>
     <title><%= title %></title>
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body>
 
 <h1><%= title %></h1>
-<p>Shrink it!<br />
-Find poems, quotes, and jokes about your entry. Or make changes!</p>
+<p>Shrink it!<br/>
+    Find poems, quotes, and jokes about your entry. Or make changes!</p>
 
 <form action="<%= '/' + diaryEntry._id %>" method='post' class='display'>
 
-  <p>
-    Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
-  </p>
+    <p>
+        Last updated: <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('MM-DD-YYYY') %>
+        at <%= diaryEntry.getDate(diaryEntry.lastUpdated).format('HH:mm') %>
+    </p>
 
-  <textarea name="body" class="fullWidth" rows='8' cols='100'><%= diaryEntry.body %></textarea>
+    <textarea name="body" class="fullWidth" rows='8' cols='100'><%= diaryEntry.body %></textarea>
 
-  <br />
+    <br/>
 
-  <p>
-    Tags: (Seperate each tag with a comma, please!)
-    <br />
+    <p>
+        Tags: (Seperate each tag with a comma, please!)
+        <br/>
 
-    <input name="tags" class="fullWidth" type="text" value="<%= diaryEntry.tags.join(', ') %>">
-  </p>
+        <input name="tags" class="fullWidth" type="text" value="<%= diaryEntry.tags.join(', ') %>">
+    </p>
 
-  <p>
-    Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %> at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
-  </p>
+    <p>
+        Created: <%= diaryEntry.getDate(diaryEntry.created).format('MM-DD-YYYY') %>
+        at <%= diaryEntry.getDate(diaryEntry.created).format('HH:mm') %>
+    </p>
 
-  <div class="center">
-    <input class="button" type="submit" name="save" value="Save">
-  </div>
+    <div class="center">
+        <input class="button" type="submit" name="save" value="Save">
+    </div>
 
 </form>
 
 <form action="<%= '/' + diaryEntry._id + '/delete' %>" method='post' class='center'>
-  <input class="button center" type="submit" name="delete" value="Delete">
+    <input class="button center" type="submit" name="delete" value="Delete">
 </form>
 
-<br />
-<br />
-<br />
+<br/>
+<br/>
+<br/>
 
-<a href='/'><button class='button'>ShrinkBot this entry!</button></a>
+<a href='/'>
+    <button class='button'>ShrinkBot this entry!</button>
+</a>
 
 </body>
 </html>
